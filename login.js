@@ -17,6 +17,7 @@ formulario_login.addEventListener("submit", function (e) {
         .then((userCredential) => {
             // Colocar que es lo que quieres que haga cuando inicias sesion
             console.log("iniciaste sesion con email y password");
+            window.location.href = "index.html";
             
         })
         .catch((error) => {
@@ -37,6 +38,7 @@ google.addEventListener("click", function () {
         .then((result) => {
             // Colocar que es lo que quieres que haga cuando inicias sesion
             console.log("iniciaste con Google");
+            window.location.href = "index.html";
             
         })
         .catch((error) => {
