@@ -37,7 +37,7 @@ onAuthStateChanged(auth, (usuario) => {
         const fotoPerfil = document.getElementById("fotoPerfil");
         fotoPerfil.src = usuario.photoURL || "user.jpg"; // Foto por defecto
     } else {
-        window.location.href = "login.html";
+        window.location.href = "prueba.html";
     }
 });
 
